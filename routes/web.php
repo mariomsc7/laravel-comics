@@ -17,12 +17,16 @@ use Illuminate\Support\Facades\Route;
 // HOMEPAGE
 Route::get('/', function () {
 
-    return view('home');
+    $comics = config('dc-database');
+    dump($comics);
+
+    return view('home', ['cards' => $comics]);
 })->name('home');
+
 
 
 // NEWS
 Route::get('/news', function() {
 
-    return ('PAGINA NEWS');
+    return view('news');
 })->name('news');

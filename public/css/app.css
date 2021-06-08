@@ -12,6 +12,11 @@
   box-sizing: border-box;
 }
 
+main {
+  background: #1c1c1c;
+  padding: 50px;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
