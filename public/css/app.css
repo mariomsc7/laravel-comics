@@ -20,3 +20,31 @@
 .text-center {
   text-align: center;
 }
+
+.flex {
+  display: flex;
+}
+
+header {
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+.navbar ul a {
+  display: inline-block;
+  margin: 0 1rem;
+  line-height: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+.navbar ul a.active {
+  border-bottom: 1px solid dodgerblue;
+}

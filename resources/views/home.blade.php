@@ -15,6 +15,15 @@
 
     </head>
     <body>
-        <h1>Home</h1>
+        
+        {{-- HEADER --}}
+        @include('partials.header')
+        {{-- MAIN --}}
+        @include('partials.main')
+        {{-- FOOTER --}}
+        @include('partials.footer')
+
+        {{-- JS --}}
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>

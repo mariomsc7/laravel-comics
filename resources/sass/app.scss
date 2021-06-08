@@ -6,11 +6,12 @@
 
 
 // GLOBAL
+@import "./partials/vars";
 @import './partials/default';
 @import './partials/utilities.scss';
 
 
 // SECTIONS
-
+@import './partials/header';
 
 // COMPONENTS

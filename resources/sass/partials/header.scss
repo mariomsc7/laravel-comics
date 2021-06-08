@@ -1,0 +1,25 @@
+header{
+    padding: 1rem;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    
+    ul {
+        display: flex;
+        list-style: none;
+        a {
+            display: inline-block;
+            margin: 0 1rem;
+            line-height: 100px;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $text-col;
+            &.active {
+                border-bottom: 1px solid $primary-col;
+            }
+            
+        }
+    }
+}
+
