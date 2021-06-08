@@ -14,7 +14,7 @@
 
 main {
   background: #1c1c1c;
-  padding: 50px;
+  padding: 100px;
 }
 
 .container {
@@ -52,4 +52,23 @@ header {
 }
 .navbar ul a.active {
   border-bottom: 1px solid dodgerblue;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cards .card {
+  flex-basis: 100px;
+}
+.cards h3 {
+  padding: 1rem;
+  color: #fff;
+  font-size: 13px;
+}
+
+.poster {
+  width: 180px;
+  height: 180px;
 }

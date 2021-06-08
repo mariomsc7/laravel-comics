@@ -1,0 +1,21 @@
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .card {
+        flex-basis: 100px;
+        
+    }
+
+    h3 {
+        padding: 1rem;
+        color: #fff;
+        font-size: 13px;
+    }
+}
+
+.poster {
+    width: 180px;
+    height: 180px;
+}
