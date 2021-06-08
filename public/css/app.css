@@ -32,6 +32,12 @@ main {
 
 header {
   padding: 1rem;
+  padding-bottom: 0;
+}
+
+.logo {
+  width: 90px;
+  margin-right: 50px;
 }
 
 .navbar {
@@ -45,13 +51,13 @@ header {
 .navbar ul a {
   display: inline-block;
   margin: 0 1rem;
-  line-height: 100px;
+  line-height: 103px;
   text-decoration: none;
   text-transform: uppercase;
   color: #000;
 }
 .navbar ul a.active {
-  border-bottom: 1px solid dodgerblue;
+  border-bottom: 3px solid dodgerblue;
 }
 
 .cards {

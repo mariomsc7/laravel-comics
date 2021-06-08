@@ -1,5 +1,11 @@
 header{
     padding: 1rem;
+    padding-bottom: 0;
+}
+
+.logo {
+    width: 90px;
+    margin-right: 50px;
 }
 .navbar {
     display: flex;
@@ -11,12 +17,12 @@ header{
         a {
             display: inline-block;
             margin: 0 1rem;
-            line-height: 100px;
+            line-height: 103px;
             text-decoration: none;
             text-transform: uppercase;
             color: $text-col;
             &.active {
-                border-bottom: 1px solid $primary-col;
+                border-bottom: 3px solid $primary-col;
             }
             
         }

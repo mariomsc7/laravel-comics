@@ -1,7 +1,7 @@
 <header>
     <div class="header container flex">
         <a href="{{ route('home') }}">
-            <img src="{{ asset('images/dc-logo.png') }}" alt="">
+            <img class="logo" src="{{ asset('images/dc-logo.png') }}" alt="">
         </a>
     
         <nav class="navbar">
